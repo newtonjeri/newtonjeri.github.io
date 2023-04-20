@@ -1,0 +1,96 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* About page styles */
+  
+  .about-us {
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  .about-us h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+  .about-us p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  footer a {
+    color: #fff;
+    transition: color 0.2s;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
